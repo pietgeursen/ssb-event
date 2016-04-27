@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/pietgeursen/ssb-event#readme",
   "devDependencies": {
+    "scuttlebot": "^8.0.0",
+    "ssb-keys": "^5.0.1",
     "tape": "^4.5.1"
   },
   "dependencies": {

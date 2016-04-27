@@ -10,5 +10,10 @@ eventType = t.struct({
 }, 'Event')
 
 module.exports = function SsbMsgEvent(description, time, location){
- return eventType({type: eventEnum('type'), description: description, time: time, location: location}) 
+ return eventType({
+   type: eventEnum('type'), 
+   description: description, 
+   time: time, 
+   location: location
+ }) 
 }
