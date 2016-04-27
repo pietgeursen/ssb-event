@@ -1,0 +1,28 @@
+{
+  "name": "ssb-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietgeursen/ssb-event.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pietgeursen/ssb-event/issues"
+  },
+  "homepage": "https://github.com/pietgeursen/ssb-event#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "pull-stream": "^3.3.2",
+    "ssb-client": "^3.0.1",
+    "tcomb": "^3.0.0"
+  }
+}
